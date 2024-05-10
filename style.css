@@ -1,0 +1,159 @@
+*{
+    /* background-color: grey; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: 'poppins',sans-serif;   */
+  /* font-family: 'Roboto'; */
+  background-color: black;
+}
+
+header{
+  background: url('https://i.ibb.co/B65srkz/IN-en-20240429-POP-SIGNUP-TWO-WEEKS-perspective-WEB-658a042e-62cf-473d-8da0-7b875f23e2ef-large.jpg') no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  color: rgba(255, 255, 255, 0.818);
+    /* blend-mode apply for background-color  */
+    background-color: rgb(0, 0,0, 0.7);
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#title{
+  color: rgba(255, 0, 0, 0.891);
+  font-size: 55px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.nav-items{
+  display:flex ;
+  align-items: center;
+  justify-content:space-between;
+  gap: 7%;
+}
+#lang{
+  padding: 5px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#signup-btn{
+  width: 120px;
+  font-size: 20px;
+  background-color: rgba(242, 8, 8, 0.801);
+  padding: 5px 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+/* banner-text */
+main{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main h1{
+  font-size: 50px;
+  font-weight: 800;
+}
+
+main h2{
+  font-size: 30px;
+}
+main h3{
+  font-size: 25px;
+}
+
+.text-input{
+  font-size: 25px;
+  padding: 3px 200px 5px 0;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+  background-color: transparent;
+  color: white;
+}
+.submit-btn{
+  font-size: 25px;
+  background-color: red;
+  border: none;
+  padding: 3px 25px;
+  color: white;
+}
+
+
+
+
+
+
+/* banner-text */
+/* .banner-text {
+    text-align: center;
+  color: #ffffffb9;
+  width: 100%;
+  position: absolute;
+  top: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner-text h1 {
+  margin-bottom: 2%;
+  font-weight: 900;
+  font-size: 57px;
+}
+.banner-text h3 {
+  margin-bottom: 2%;
+  font-size: 190%;
+  font-weight:400;
+}
+.banner-text div {
+  width: 100%;
+}
+
+.banner-text div form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner-text div form input {
+  background-color: rgb(0, 0, 0);
+  width: 25%;
+  height: 70px;
+  opacity: 0.55;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 1%;
+  font-size: 19px;
+  padding-left: 1%;
+  color: #ffff;
+}
+
+.banner-text div form button {
+  width: max-content;
+  padding: 0 2%;
+  border-radius: 5px;
+  font-size:30px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+} */

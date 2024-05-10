@@ -1,0 +1,14 @@
+	Netflix React Project
+     ---------------------------
+
+> created separate folder <Netflix-Project>
+> cloned Github Repository
+	. <Netflix-Clone-React>
+> go to req. folder and install/setup React Project app
+	. npx create-react-app netflix-app
+
+> run react app	
+	.npm start
+
+> push files to Github Repository
+> Unable to accessed Live
